@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Sunnyside agency landing page | Arbaaz Sumar</title>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <nav class="navbar" id="navbar" data-visible="false">
+        <a href="#features" class="link-item">About</a>
+        <a href="#fruits" class="link-item">Services</a>
+        <a href="#gallery" class="link-item">Projects</a>
+        <a href="#footer" class="link-item"
+          ><button class="btn">Contact</button></a
+        >
+      </nav>
+      <button aria-expanded="false" id="hamburger"></button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="overlay">
+          <h1>We are creatives</h1>
+          <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow" />
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="transform">
+          <div class="features-text">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="yellow">Learn more</a>
+          </div>
+          <div class="features-image image-one"></div>
+        </div>
+        <div class="stand">
+          <div class="features-text order-reverse">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="orange">Learn more</a>
+          </div>
+          <div class="features-image image-two"></div>
+        </div>
+      </section>
+
+      <section class="fruits" id="fruits">
+        <div class="fruit-one fruit">
+          <h4>Graphic design</h4>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="fruit-two fruit">
+          <h4>Photography</h4>
+          <p>
+            Photography Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.
+          </p>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <h3 class="testimonials-heading">Client testimonials</h3>
+        <div class="test-container">
+          <div class="test-item">
+            <img src="images/image-emily.jpg" alt="emily" />
+            <p class="desc">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <p class="name">Emily R.</p>
+            <p class="role">Marketing Director</p>
+          </div>
+          <div class="test-item">
+            <img src="images/image-thomas.jpg" alt="thomas" />
+            <p class="desc">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="name">Thomas S.</p>
+            <p class="role">Chief Operating Officer</p>
+          </div>
+          <div class="test-item">
+            <img src="images/image-jennie.jpg" alt="jennie" />
+            <p class="desc">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <p class="name">Jennie F.</p>
+            <p class="role">Business Owner</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="milk-pic">
+          <img
+            class="gallery-pic"
+            src="images/desktop/image-gallery-milkbottles.jpg"
+            alt="milk"
+          />
+        </div>
+        <div class="orange-pic">
+          <img
+            class="gallery-pic"
+            src="images/desktop/image-gallery-orange.jpg"
+            alt="orange"
+          />
+        </div>
+        <div class="cone-pic">
+          <img
+            class="gallery-pic"
+            src="images/desktop/image-gallery-cone.jpg"
+            alt="cone"
+          />
+        </div>
+        <div class="sugar-pic">
+          <img
+            class="gallery-pic"
+            src="images/desktop/image-gallery-sugarcubes.jpg"
+            alt="sugar"
+          />
+        </div>
+      </section>
+
+      <footer class="footer" id="footer">
+        <img class="footer-logo" src="images/logo.svg" alt="logo-footer" />
+        <div class="footer-nav">
+          <a href="#features" class="footer-link-item">About</a>
+          <a href="#fruits" class="footer-link-item">Services</a>
+          <a href="#gallery" class="footer-link-item">Projects</a>
+        </div>
+        <div class="social">
+          <img src="images/icon-facebook.svg" alt="facebook" />
+          <img src="images/icon-instagram.svg" alt="insta" />
+          <img src="images/icon-pinterest.svg" alt="pintrest" />
+          <img src="images/icon-twitter.svg" alt="twitter" />
+        </div>
+        <p>&copy; Arbaaz Sumar 2022</p>
+      </footer>
+    </main>
+  </body>
+</html>
